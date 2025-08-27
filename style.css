@@ -1,0 +1,74 @@
+html * {
+    font-family: Georgia !important;
+}
+
+h5 {
+    visibility: hidden;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: bold;
+    color: Goldenrod;
+}
+
+h4 {
+    font-size: 17px;
+    font-weight: bold;
+    color: DodgerBlue;
+}
+
+thousandPx>img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 1000px;
+}
+
+thousand2Px>img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 1200px;
+}
+
+thousand3Px>img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 2000px;
+}
+
+sixHundredPx>img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 600px;
+}
+
+eightHundredPx>img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 800px;
+}
+
+.toUpper {
+    text-transform: uppercase;
+}
+
+.multiline {
+    white-space: pre-wrap;
+}
+
+.border-block {
+    border-block: double;
+}
+
+.row {
+    display: flex;
+}
+
+.light {
+    background-color: black;
+}

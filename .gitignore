@@ -1,0 +1,6 @@
+.ipynb_checkpoints
+.idea
+env
+.pytest_cache
+__pycache__
+node_modules
