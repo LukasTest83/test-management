@@ -17,6 +17,9 @@
 <u>**VYLEPŠENÍ TESTOVACÍHO PROCESU**</u>
 - [<b>ZLEPŠOVÁNÍ TESTOVACÍHO PROCESU:</b>](#improve-test-process)
 
+<u>**TESTOVACÍ NÁSTROJE**</u>
+- [<b>ZLEPŠOVÁNÍ TESTOVACÍHO PROCESU:</b><ul><li>ZAVEDENÍ NOVÉHO NÁSTROJE</li><li>TECHNICKÉ A BUSINESS ASPEKTY, KTERÉ MAJÍ VLIV NA ROZHODNUTÍ O ZAVEDNÍ NOVÉHO NÁSTROJE</li><li>NÁVRATNOST INVESTICE (ROI)</li><li>ŽIVOTNÍ CYKLUS NÁSTROJE</li><li>OTÁZKY K TEST TOOLS</li></ul>](#test-tools)
+
 ***
 
 ### <span style="color:Indigo">**POZNÁMKY**</span>
@@ -923,7 +926,7 @@ Tým to cítí tak, že je zbytečně osočován z problému, kerý neexistuje =
 
 ##### improve test process
 ### ZLEPŠOVÁNÍ TESTOVACÍHO PROCESU
-#### <ul><li>ZLEPŠENÍ TESTOVACÍHO PROCESU: IDEAL</li><li>MODEL-BASED TEST PROCESS IMPROVEMENT</li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li></ul>
+#### <ul><li>ZLEPŠENÍ TESTOVACÍHO PROCESU: IDEAL</li><li>MODEL-BASED TEST PROCESS IMPROVEMENT</li></ul>
 - ✅ testovací proces je potřeba zlepšovat už jen proto, že stojí kolem 30-40% všech nákladů na projekt.
 - <u>**důvody pro zlepšování testtovacího procesu**:</u>
   - 🔸 **nejsme spokojeni s výsledky současných testů**.
@@ -1033,7 +1036,7 @@ Tým to cítí tak, že je zbytečně osočován z problému, kerý neexistuje =
   - ✅ v sekvenčním modelu musí být výsledky, nálezy, doporučený...komunikovány do dalších týmů organizace.
   - ✅ důležitou roli hrají testeři, kteří jsou součástí týmu = přináší vhled na kvalitu produktu a zároveň náměty na zlepšení.
 
-<u>OTÁZKY KZLEPŠOVÁNÍ TESTOVACÍHO PROCESU</u>
+<u>OTÁZKY K ZLEPŠOVÁNÍ TESTOVACÍHO PROCESU</u>
 
 ```txt
 Jsi test manager a pracuješ na zlepšení testovacího procesu z hlediska efektivity a účinnosti. Na zlepšení jsi dostal i nějaký budget. 
@@ -1127,3 +1130,190 @@ Jdeš na retrospektivní meeting, kde chceš vyzvednout téma, kdy vývojáři o
 - **odpověď D**: není správná
 
 ![alt text](image/question33.png)
+
+##### tools
+### TEST TOOLS
+#### <ul><li>ZAVEDENÍ NOVÉHO NÁSTROJE</li><li>TECHNICKÉ A BUSINESS ASPEKTY, KTERÉ MAJÍ VLIV NA ROZHODNUTÍ O ZAVEDNÍ NOVÉHO NÁSTROJE</li><li>NÁVRATNOST INVESTICE (ROI)</li><li>ŽIVOTNÍ CYKLUS NÁSTROJE</li><li>OTÁZKY K TEST TOOLS</li></ul>
+- ✅ **máme 3 druhy testovacích nástrojů**:
+  - [x] komerční testovací nástroje (kupujeme je)
+  - [x] open source testovací nástroje (zdarma)
+  - [x] uživatelské testovací nástroje (např. vlastní vyvinutý nástroj nebo přizpůsobený open source nástroj)
+- za testovací nástroje i nově zavedené je odpovědný TM.
+
+<u>ZAVEDENÍ NOVÉHO NÁSTROJE</u>
+
+**GOOD PRACTICES při zavedení nového testovacího nástroje**
+- 🔸 identifikujeme proces zlepšení při zavedení nového testovacího nástroje (př. podpora CI/CD)
+- 🔸 tool musí podporovat současné technologie v společnosti.
+- 🔸 tool musí být organizačně i technicky začlenitelný do SDLC (jaká je role nástroje v určté části life cyklu?).
+- 🔸 pokud volíme komerční produkt, pak musíme posoudit zda má např. dobrou podporu, zda se jedná o prověřeného dodavatele nebo porovnat s open source nástroji.
+- 🔸 **obecné good practises**:
+  - spustit pilotní projekt, kde se ověří zda nástroj vyhovuje všem požadavkům a jak nástroj spolupracuje s zavedenými postupy.
+  - definujeme postupy jak nástroj požívat.
+  - vyškolíme a poskytujeme podporu teamu při používání nástroje.
+  - **nástroj zavádíme postupně**
+    - pokud máme např. 20 testerů rozdělených do 3 týmu, tak nový nástroj nejdříve začne používat 1 tým (klesne mu efektivnost, protože se teprve učí) a zbylé 2 týmy pokračují s dosavadním nástrojem (jedou naplno).
+  - nastavíme postup jak získat informace o současném používání nástroje vyiužitelné pro další zlepšení.
+  - určíme osobu, která bude "zodpovědná za nástroj" např. bude poskytovat odpovědi pro dotazy k nástroji.
+
+<u>TECHNICKÉ A BUSINESS ASPEKTY, KTERÉ MAJÍ VLIV NA ROZHODNUTÍ O ZAVEDNÍ NOVÉHO NÁSTROJE</u>
+- **regulace a bezpečnost**: pokud máme např. společnost podnikají v letectví, tak tato společnost potřebuje ISO certifikovaný a bezpečný SW ne open source.
+- **finanční aspekt**: u open source nástrojů jsou počáteční náklady nižší(nulové) narozdíl od komerčních nástrojů.
+- **požadavky stakeholderů**: nástroj je musí splňovat.
+- **nástroj musí zapadat do portfolia současných nástrojů v společnosti a spolupracovat s nimi.**
+
+<u>NÁVRATNOST INVESTICE (ROI)</u>
+- ***vrátí se mi náklady investované do nového nástroje?***
+  - <span style="color:DodgerBlue">**ROI je vyšší než náklady na pořízení nástroje a platí to i případě porovnání nástrojů mezi sebou (beru ten s vyšší ROI).**</span>
+- **pro seniorní management je RIO podmínka.**
+- pro procesní tým a podporu by byl nejlepší jeden nástroj na všechno.
+- pro vedoucí projektů musí nástroj "něco zlepšovat" a to něco musí mít měřitelné hodnoty.
+- pro uživatele nástroje musí být nástroj snadno použitelný.
+- **vhodnost nástroje pro testovací tým posuzuje TM** i podle výsledku provedené ROI analýzy.
+- můžeme provést **cost-benefit** analýzu, kde posoudíme jednorázové náklady a opakující se náklady na nástroj.
+
+<u>jednorázové (opakující se) aktivity + náklady na nástroj</u>
+- ✳️ **jednorázové náklady na**:
+  - vybrání správného nástroje, který splňuje naše požadavky
+  - nákup, adaptace a dodatečný vovoj nástroje pro počáteční použití
+  - vytvoření manuálu pro použití
+  - tréning na použití nástroje
+  - integrace nástroje do celého ekosystému našich současných nástrojů
+- ✳️ **opakující se náklady na**:
+  - opakovaný nákup licencí nebo placení licenčních poplatků
+  - náklady na údržbu nástroje
+  - další náklay na nástroje př. (na updaty nástroje)
+  - náklady na implementaci/přerozdělení nástroje mezi různá prostředí
+- ✳️ **příležitostné náklady**:
+  - náklady, které jsou vynaloženy v souvislosti s nástrojem (tréning, administrace, vývoj), ale které by mohli být vynaloženy na aktivity související s testování
+
+**rizika při výběru nástroje vzhledem k ROI**
+- neefektivní využití nástroje vzhledem k nedostatečné vyspělosti organizace (nikdo neumí nástroj využít efektivně).
+- změny v politice prodejce nástroje.
+- vyšší náklady na nástroj než se očekávalo nebo nižší benefit z nástroje než se očekávalo.
+
+**benefity plynoucí z použití nástroje**
+- redukce manuální práce (regesní testování)
+- uspíšení testovacích kol
+- ušetření nákladů ma test exekuci
+- zvýšení pokrytí určitých částí testy
+- redukce lidských chyb, rychlý přístup k výsledkům testů
+
+<u>ŽIVOTNÍ CYKLUS NÁSTROJE</u>
+- máme 4 životní období nástroje
+- [x] **akvizice**: obsahuje rozhodnutí o vybrání nástroje, stanovení vlastníka nástoje(stanoví např. jak se bude nástroj jmenovat, kde se bude uložen...apod) = ***jednorázová aktivita***
+- [x] **podpora a údržba nástroje**: vlastník nástroje nebo administrátor je zodpovědný za údržbu nástroje, zálohování, obnovu artefaktů souvisejích s nástrojem = ***opakovaná aktivita***
+- [x] **vývoj**: rozvoj nástroje z důvodů změny politiky dodavatele nástroje, potřebám businessu apod.
+- [x] **čas vyřazení nástroje**: př. nahrazení nástroje modernějším z mnoha důvodů př. končící podpora nástroje.
+
+<u>VÝSTUPY NÁSTROJE</u>
+- každý nástroj shromažďuje real-time data a redukuje úsilí potřebné k shromážďování těchto dat. 
+- **typy výstupů dat**:
+  - 🔵 **z test management nástrojů**: testovací plány, přehled exekují testů, test položky...apod.
+    - zároveň nám poskytují tracebilitu .
+  - 🔵 **z defect management nástrojů**: informace o defektech (status, severity, priority...apod).
+  - 🔵 **z nástrojů statické analýzy**: např. metriky vztahující se k komplexivitě kodu.
+  - 🔵 **z performance management tools**: informace o response time a selhání v případě zatížení.
+  - 🔵 **z code coverage nástrojů**: informace o pokrytí kodu
+- 🔵 <span style="color:DodgerBlue">**můžeme monitorovat i samotné nástroje**</span> např. kolik je zachyceno defektů bez použití nástroje a s použitím nástroje = **jak moc je nástro efektivní**.
+- 🔵 **účinnost nástroje**: počet exekuovaných testů za jednotku času nebo jak dlouho trvá nástroji text exekuce všech testů.
+
+<u>OTÁZKY K TEST TOOLS</u>
+
+```txt
+Jsi test manager pro nový produkt a máš za úkol vybrat nový test tool pro tento produkt.
+```
+
+- ❔ **Co není best practise pro výběr nového produktu?**
+- **odpověď A**: není správná = vybrat updatovanou verzi samého toolu není dobrý přístup.
+- **odpověď B**: <u>správná odpověď</u>
+- **odpověď C**: <u>správná odpověď</u>
+- **odpověď D**: <u>správná odpověď</u>
+
+![alt text](image/question34.png)
+
+***
+
+![alt text](image/question35.png)
+
+![alt text](image/question36.png)
+
+- ❔ **Co by mělo být klíčové pro vybrání nástroje?**
+- **odpověď A**: není správná = většina open source nástrojů nemají dedikovaný support pouze fora, nějakou veřejnou dokumentaci, ale my potřebujeme oficiální support.
+- **odpověď B**: není správná = nneí to klíčový požadavek na nástroj.
+- **odpověď C**: <u>správná odpověď</u>
+- **odpověď D**: není správná
+
+![alt text](image/question37.png)
+
+***
+
+![alt text](image/question38.png)
+
+![alt text](image/question39.png)
+
+- ❔ **Na základě vypočtené ROI pro každý případ, jaký nástroj vybereme a proč?**
+- **odpověď A**: není správná = můžeme vybrat nástroj A, protože je nejlevnější, nejlépe spravovatelný a má nejširší použití, ale C nástroj vychází lépe.
+- **odpověď B**: není správná =  nástroj B podporuje funcionální a performance testování, ale C nástroj vychází lépe.
+- **odpověď C**: <u>správná odpověď</u> = nástroj C navíc oproti B podporuje security testing, je nejlevnější = má nejvyšší ROI.
+- **odpověď D**: není správná = každá z odpovědí A, B, C má pozitivní ROI.
+
+![alt text](image/question40.png)
+
+```txt
+Pro testování produktu máme k dispozici uživatelský tool, který ale již nevyhovuje požadavkům a tak se rozhodneme použít open-source tool, který je používaný v společnosti, ale na jiném projektu.
+```
+
+- ❔ **Které z aktivit musíme provést <u>JAKO PRVNÍ</u>, když se rozhodneme opustit uživatelský tool a zavést open-source tool, aby se projevila přidaná hodnota nového nástroje co možná nejdříve?**
+- **odpověď A**: není správná = uživatelský nástroj již nebude používán.
+- **odpověď B**: <u>správná odpověď</u>
+- **odpověď C**: není správná = viz. odpověď A
+- **odpověď D**: není správná = některé testy, skripty již nepotřebuji a tak by to zabralo zybtečně příliš času.
+
+![alt text](image/question41.png)
+
+- ❔ **Který typ nástroje je nejlevnější (mluvíme o pořizovací ceně)?**
+- **odpověď A**: není správná
+- **odpověď B**: <u>správná odpověď</u>
+- **odpověď C**: není správná
+- **odpověď D**: není správná
+
+![alt text](image/question42.png)
+
+```txt
+Manager se rozhodl, že všichni testeři v týmu se stanou automatizační testeři. Tým je schonější v analýze než po technické stránce, a proto má obavy z jejich adaptace.
+```
+
+- ❔ **Co může pomoci při výběru dodavatele nástroje?**
+- **odpověď A**: není správná
+- **odpověď B**: není správná
+- **odpověď C**: <u>správná odpověď</u>
+- **odpověď D**: není správná
+
+![alt text](image/question43.png)
+
+```txt
+Testovací tým byl přiřazen na testování mobilní aplikace. Tým vyvíjí externí organizace, která provádí neustálé změny. Testovací tým nemá kapacitní možnosti vše otestovat ani zavést automatizaci.
+Najme tedy externí firmu pro automatizované testy v nástroji, který testovací tým určí. Nyní potřebují dokončit testování včas a ejít se do budgetu.
+```
+
+- ❔ **Co bude hlavní obava?**
+- **odpověď A**: <u>správná odpověď</u>
+- **odpověď B**: není správná = testeři se nezapojí.
+- **odpověď C**: není správná
+- **odpověď D**: není správná
+
+![alt text](image/question44.png)
+
+- ❔ **jak může code coverage pomoci testingu?**
+- **odpověď A**: není správná = code coverage nesouvisí s požadavky, ale souvisí s pokrytí požadavků.
+- **odpověď B**: není správná = např. 90% pokrytí kodem nic neříká o důležitosti segmentů.
+- **odpověď C**: <u>správná odpověď</u>
+- **odpověď D**: není správná = code coverage říká, jaké procento kodu bylo pokryto.
+
+![alt text](image/question45.png)
+
+##### metriky
+### TEST METRIKY
+#### <ul><li></li><li></li><li></li><li></li><li></li></ul>
+
