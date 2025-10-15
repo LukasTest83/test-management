@@ -1579,4 +1579,69 @@ kdy testeři spolupracují s různými stakeholdery.
 
 ##### defect
 ### DEFECT MANAGEMENT
-#### <ul><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li></ul>
+#### <ul><li>DEFECT LIFECYCLE</li><li>MOŽNÉ STAVY DEFECT</li><li>CROSS FUNCTIONAL DEFECT MANAGEMENT</li><li>DEFECT MANAGEMENT V AGILNÍCH TÝMECH</li><li>DEFECT MANAGEMENT V HYBRIDNÍCH TÝMECH</li><li>INFORMACE V DEFECT REPORTU</li><li>ZLEPŠENÍ POMOCÍ INFORMACÍ Z DEFECT MANAGEMENT PROCESU</li><li>OTÁZKY</li></ul>
+- jsou to aktivity prováděné v době kdy byl stanoven výsledek testu, který se liší od očekávaného výsledku testu.
+
+<u>DEFECT LIFECYCLE</u>
+- SDLC musí obsahovat aktivity vedoucí k odhalení a odstranění potencionálních defektů př. analýzy, reviews
+  - např. statickou analýzou můžeme odhalit defekty již v návrhu nebo kodu, bez potřeby spuštění.
+- v statickém testování **hledáme defekty**, v dynamickém testování **hledáme selhání**.
+- výsledek testu **false-negative**: tester neodhalil chybu.
+
+<u>MOŽNÉ STAVY DEFECT</u>
+
+**defect workflow**
+
+![alt text](image/defect_workflow.png)
+
+<u>GOOD PRACTISE V DEFECT WORKFLOW</u>
+- defect workflow by **mělo být stejné** napříč celou organizací = **konzistentnost**.
+- **duplicitní a false-pozitiv defekty** (tester zadal chybu, ale není to chyba) by měly mít stav **REJECTED**  s odůvodněmím, proč byly rejected.
+- jeden terminální stav je **CLOSED**.
+- k každému případnému stavu defektu by měla být **přiřazena odlišná odpovědná role**.
+  - jedna role k více stavům může však být dobrý nápad = **šetří to čas** př. delevoleper si navodí defekt a provede debugging (2 stavy)
+- každý stav kromě CLOSED má možnost přejít do více než jednoho dalšího stavu.
+
+<u>CROSS FUNCTIONAL DEFECT MANAGEMENT</u>
+- defect management není prováděn pouze testovacím oddělením, ale i jinými odděleními = **CROSS**.
+
+![alt text](image/cross.png)
+
+<u>DEFECT MANAGEMENT V AGILNÍCH TÝMECH</u>
+- DM (Defect Management) je jednoduchý a méně formální než v sekvenčních modelech.
+  - v agilním týmu je většinou lepší komunikace než v jiných modelech a testeři navzájem vědí o svých defektech = **defect report se nepíše**.
+
+**defect report se ale píše pro:**
+
+![alt text](image/defect_report.png)
+
+**na formalitu defektu má vliv:**
+
+![alt text](image/formalita_defektu.png)
+
+<u>DEFECT MANAGEMENT V HYBRIDNÍCH TÝMECH</u>
+- jaká mám v těchto týme výzvy ohledně DM?
+  - 🔵 **shodnutí se na společném DM nástroji** (a shodném používání nástroje) a atributech, které musí každý defekt povinně obsahovat.
+  - 🔵 **prioritizace defektů** + někdy je určena samostatná osoba, která má v tomto "podlední, rozhodující slovo".
+  - 🔵 **transparetnost testovacího plánu a dodržování ho**: všichni na projektu dodržují stejný projektivý plán, všechny dodávky SW včetně oprv chyb dodržují projektový plán.
+
+<u>INFORMACE V DEFECT REPORTU</u>
+- informace z defekt reportu jsou použity pro:
+
+![alt text](image/dr_informace.png)
+
+**informace v defect reportu**
+- ❗uvádíme pouze informace, které jsou potřeba.
+
+![alt text](image/dr_informace1.png)
+
+![alt text](image/dr_informace2.png)
+
+<u>ZLEPŠENÍ POMOCÍ INFORMACÍ Z DEFECT MANAGEMENT PROCESU</u>
+
+<div class="row">
+  <img src="image/zlepseni.png" style="width:700px; height:200px;">
+  <img src="image/zlepseni1.png" style="width:700px; height:200px;">
+</div>
+
+<u>OTÁZKY</u>
