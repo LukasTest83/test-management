@@ -26,6 +26,12 @@
 <u>**ODHADY NA TESTOVÁNÍ**</u>
 - [<b>ODHADY NA TESTOVÁNÍ:</b><ul><li>FAKTORY OVLIVŇUJÍCÍ ODHADY TESTOVÁNÍ</li><li>ODHADOVACÍ TECHNIKY</li><li>EXTRAPOLACE</li><li>WIDEBAND DELPHI</li><li>3-BODOVÝ ODHAD</li><li>VÝBĚR TECHNIKY PRO ODHAD</li><li>OTÁZKY</li></ul>](#odhady)
 
+<u>**DEFECT MANAGEMENT**</u>
+- [<b>DEFECT MANAGEMENT:</b><ul><li>DEFECT LIFECYCLE</li><li>MOŽNÉ STAVY DEFECT</li><li>CROSS FUNCTIONAL DEFECT MANAGEMENT</li><li>DEFECT MANAGEMENT V AGILNÍCH TÝMECH</li><li>DEFECT MANAGEMENT V HYBRIDNÍCH TÝMECH</li><li>INFORMACE V DEFECT REPORTU</li><li>ZLEPŠENÍ POMOCÍ INFORMACÍ Z DEFECT MANAGEMENT PROCESU</li><li>OTÁZKY</li></ul>](#defect)
+
+<u>**MANAGING THE TEAM**</u>
+- [<b>MANAGING THE TEAM:</b>](#managing)
+
 ***
 
 ### <span style="color:Indigo">**POZNÁMKY**</span>
@@ -1643,5 +1649,138 @@ kdy testeři spolupracují s různými stakeholdery.
   <img src="image/zlepseni.png" style="width:700px; height:200px;">
   <img src="image/zlepseni1.png" style="width:700px; height:200px;">
 </div>
+
+<u>OTÁZKY</u>
+
+![alt text](image/question61.png)
+
+- **odpověď B**: <u>správná odpověď</u>: nastane například v situaci, kdy ještě funkcionalita není vyvinutá = **nejedná se o defekt, když ještě není funkčnost vyvinutá.**
+
+![alt text](image/question62.png)
+
+![alt text](image/question63.png)
+
+- **odpověď B**: <u>správná odpověď</u>
+
+![alt text](image/question64.png)
+
+- **odpověď C**: <u>správná odpověď</u>
+
+![alt text](image/question65.png)
+
+- **odpověď B**: <u>správná odpověď</u>: správně je i proto, že jsme součástí agilního týmu a v agilním týmu preferujeme spolupráci.
+  - v odpovědi C budeme **spolupracovat na řešení defektu** ne na jeho ověření.
+
+![alt text](image/question66.png)
+
+- **odpověď C**: <u>správná odpověď</u>
+
+![alt text](image/question67.png)
+
+- jedná se o příklad defekt reportu
+- **odpověď B**: <u>správná odpověď</u>
+
+![alt text](image/question68.png)
+
+- **odpověď B + C**: <u>správné odpověďi</u>
+
+![alt text](image/question69.png)
+
+- **odpověď B**: <u>správná odpověď</u>
+
+![alt text](image/question70.png)
+
+- **odpověď A**: <u>správná odpověď</u>
+
+![alt text](image/question71.png)
+
+- **odpověď B**: <u>správná odpověď</u>: odpovědí říká, "toto je defekt, ale potřebuji více informací".
+  - u REJECTED stavu říká, "toto není defekt".
+  - BLOCKED stav říká, "nejsem schopný navodit defekt z jakéhokoli důvodu".
+
+![alt text](image/question80.png)
+
+- **odpověď A**: <u>správná odpověď</u>
+
+![alt text](image/question81.png)
+
+- **odpověď A**: <u>správná odpověď</u>
+
+![alt text](image/question82.png)
+
+- **odpověď A**: <u>správná odpověď</u>
+
+![alt text](image/question83.png)
+
+- **odpověď A**: <u>správná odpověď</u>
+
+![alt text](image/question84.png)
+
+![alt text](image/question85.png)
+
+- **odpověď C**: <u>správná odpověď</u>
+
+![alt text](image/question86.png)
+
+- <u>všechny odpovědi by mohly být správné</u>
+- **odpověď D**: <u>je však nejvíce relevantní odpověď</u>
+
+##### managing
+### MANAGING THE TEAM
+#### <ul><li>OBLASTI DOVEDNOSTÍ V TESTOVACÍM TÝMU</li><li>ANALÝZA POŽADAVKŮ NA TESTOVACÍ DOVEDNOSTI V TÝMU</li><li>POSOUZENÍ DOVEDNOSTÍ V TESTOVACÍM TÝMU</li><li>ROZVOJ DOVEDNOSTÍ V TESTOVACÍM TÝMU</li><li>MANAGEMENT DOVEDNOSTI PRO VEDENÍ TESTOVACÍHO TÝMU</li><li>MOTIVAČNÍ A DEMOTIVAČNÍ FAKTORY V TESTOVACÍM TÝMU V URČITÝCH SITUACÍCH</li><li>OTÁZKY</li></ul>
+
+<u>OBLASTI DOVEDNOSTÍ V TESTOVACÍM TÝMU</u>
+- <span style="color:DodgerBlue">**profesionální kompetence**</span>: pro provádení speciálních úkolů př. **znalost testovacích technik, projekt management dovedností, business expertýzy v určité aplikaci**...
+- <span style="color:DodgerBlue">**metodologické kompetence**</span>: obecné dovednosti, které člověk má bez ohledu na konkrétní oblast použití př. **analytické dovednosti, schopnost rozhodování...**
+- <span style="color:DodgerBlue">**sociální kompetence**</span>: dovednosti v oblasti **komunikace, spolupráce, řešení konfliktů...**
+- <span style="color:DodgerBlue">**osobní kompetence**</span>: **schopnost seberozvoje, rozvoje svého talentu, disciplína, sebekritika, osobní odpovědnost, otevřenost změnám, schopnost delegace...**
+
+<u>ANALÝZA POŽADAVKŮ NA TESTOVACÍ DOVEDNOSTI V TÝMU</u>
+- najímání pracovníků na testování je součástí test plánovaní.
+
+**profesní a metodologické kompetence**
+- příklady: 
+  - project management dovednosti pro test monitoring a kontrolu.
+  - test analýza vyžaduje analytické dovednosti.
+  - test design vyžaduje znalost testovacích technik.
+  - implementace testů vyžaduje krom jiných i např. znalost skriptování, technické expertýzy
+
+**sociální kompetence**
+- umožňují spolupráci s ostatními členy týmu.
+  - zahrnují dovednosti jako komunikace, spolupráce, řešení konfliktních situací.
+
+**osobní kompetence**
+- schopnost sám sebe rozvíjet a tím být efektivní a účinný.
+
+<u>POSOUZENÍ DOVEDNOSTÍ V TESTOVACÍM TÝMU</u>
+- máme tzv. skill matrix + existují modely, které umožní pracovat týmu efektivněji př. BELBIN 2010 model.
+
+<u>ROZVOJ DOVEDNOSTÍ V TESTOVACÍM TÝMU</u>
+- tréning a účení se potřebných dovedností, samovzdělávání, sdílení znalostí zkušenějších kolegů, mentoring a couching.
+
+<u>MANAGEMENT DOVEDNOSTI PRO VEDENÍ TESTOVACÍHO TÝMU</u>
+- ten kdo vede tým musí mít obecné profesní a metodologické dovednosti jako plánování, monitorování progresu, reporting...apod.
+  - následují dovednosti důležité pro testing: znalost testovacích přístupů, test strategií nebo testovacích technik.
+- TM by měl mít odpovídající vztah k členům testovacího týmu + schopnosti jako přužnost, schopnost delegace, schopnost být akceptován testovacím týmem, vyzvihovat benefety testování...
+
+**dovednosti podle TUCKMAN modelu**
+
+![alt text](image/tuckman.png)
+
+<u>MOTIVAČNÍ A DEMOTIVAČNÍ FAKTORY V TESTOVACÍM TÝMU V URČITÝCH SITUACÍCH</u>
+- **motivační faktory**:
+  - uznání a ocenění práce jednotlivce
+  - zvýšení odpovědnosti a stupně autonomity
+  - zajímavé, smysluplné úlohy a výzvy, které jedinec vnímá positivně př. vybrání nového nástroje pro automatizaci.
+   - profesní rozvor př. posun z experta na testování do pozice test managera nebo test proces vlastníka.
+- hygiencké faktory jsou považovány za samozřejmost = **jejich naplnění nevede automaticky k větší spokojenosti**.
+  - pokud chybí jsou **demotivujícím faktorem**.
+- **demotivační faktory**:
+  - chybí odpovídající odměna (plat, sociální benefity, odměna za práci přesčas)
+  - nejisté pracovní místo nebo pozice
+  - nepříjemné pracovní podmínky
+  - nepříjemné pracovní vztahy s ostatními kolegy
+  - nestabilní testovací prostředí, nestandartně vyřené chyby, zastaralé věci k testování (testuji starý SW), nedokonalá specifikace pro testování...
+    - př. u nesprávně zavřených chyb = **tester má pak pocit, že jeho nalezené chyby nejsou důležité = moje práce není důležitá**.
 
 <u>OTÁZKY</u>
