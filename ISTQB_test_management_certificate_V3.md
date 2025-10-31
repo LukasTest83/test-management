@@ -30,7 +30,10 @@
 - [<b>DEFECT MANAGEMENT:</b><ul><li>DEFECT LIFECYCLE</li><li>MOŽNÉ STAVY DEFECT</li><li>CROSS FUNCTIONAL DEFECT MANAGEMENT</li><li>DEFECT MANAGEMENT V AGILNÍCH TÝMECH</li><li>DEFECT MANAGEMENT V HYBRIDNÍCH TÝMECH</li><li>INFORMACE V DEFECT REPORTU</li><li>ZLEPŠENÍ POMOCÍ INFORMACÍ Z DEFECT MANAGEMENT PROCESU</li><li>OTÁZKY</li></ul>](#defect)
 
 <u>**MANAGING THE TEAM**</u>
-- [<b>MANAGING THE TEAM:</b>](#managing)
+- [<b>MANAGING THE TEAM:</b><ul><li>OBLASTI DOVEDNOSTÍ V TESTOVACÍM TÝMU</li><li>ANALÝZA POŽADAVKŮ NA TESTOVACÍ DOVEDNOSTI V TÝMU</li><li>POSOUZENÍ DOVEDNOSTÍ V TESTOVACÍM TÝMU</li><li>ROZVOJ DOVEDNOSTÍ V TESTOVACÍM TÝMU</li><li>MANAGEMENT DOVEDNOSTI PRO VEDENÍ TESTOVACÍHO TÝMU</li><li>MOTIVAČNÍ A DEMOTIVAČNÍ FAKTORY V TESTOVACÍM TÝMU V URČITÝCH SITUACÍCH</li><li>OTÁZKY</li></ul>](#managing)
+
+<u>****</u>
+- [<b>:</b>](#stakeholders)
 
 ***
 
@@ -60,6 +63,7 @@
 ![Alt text](image/struktura.png)
 
 - ✅ **DOD** = Definition Of Done
+- 🔵 **ISO 29119** je mezinárodní sada norem pro testování softwaru, která poskytuje ucelený procesní rámec pro jakoukoliv organizaci provádějící testování softwaru. 
 
 <hr style="height:1px;border-top:1px solid #f00" />
 
@@ -1784,3 +1788,42 @@ kdy testeři spolupracují s různými stakeholdery.
     - př. u nesprávně zavřených chyb = **tester má pak pocit, že jeho nalezené chyby nejsou důležité = moje práce není důležitá**.
 
 <u>OTÁZKY</u>
+
+![alt text](image/question87.png)
+
+- **odpověď D**: <u>je metodologická kompetence</u>
+  - odpověď C je personální kompetence, odpověď B je sociální kompetence, odpověď A je profesionální kompetence.
+
+![alt text](image/question88.png)
+
+![alt text](image/question89.png)
+
+- **odpověď A**: <u>je správná odpověď</u>
+  - programování není pro test analytika důležité stejně jako schopnost delegovat práci
+
+  ![alt text](image/question90.png)
+
+  ![alt text](image/question91.png)
+
+  - **odpověď A**: <u>je správná odpověď narozdíl od odpovědi D, která je podobná, ale příliš obecná.</u>
+    - v projektu jsou časté změny, a proto je důležitá automatizace a programování, možná i nastavení testovacího prostředí.
+    - test strategy a project management tasks jsou úlohy TM a ne testera.
+
+![alt text](image/question92.png)
+
+- **odpověď C**: <u>je správná odpověď</u>
+  - pokud je někde v odpovědi technická kompetence, tak je odpověď špatná, protože nic jako "technická kompetence" není.
+
+![alt text](image/question93.png)
+
+- **odpověď D**: <u>je správná odpověď</u>
+  - tréning a couching jsou 2 rozdílné věci.
+  - self-stady je pro profesional kompetence ne pro sociální kompetence.
+
+![alt text](image/question94.png)
+
+- **odpověď D**: <u>je správná odpověď</u>
+
+##### stakeholders
+### 
+#### <ul><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li></ul>
