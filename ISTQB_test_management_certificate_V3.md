@@ -32,8 +32,8 @@
 <u>**MANAGING THE TEAM**</u>
 - [<b>MANAGING THE TEAM:</b><ul><li>OBLASTI DOVEDNOSTÍ V TESTOVACÍM TÝMU</li><li>ANALÝZA POŽADAVKŮ NA TESTOVACÍ DOVEDNOSTI V TÝMU</li><li>POSOUZENÍ DOVEDNOSTÍ V TESTOVACÍM TÝMU</li><li>ROZVOJ DOVEDNOSTÍ V TESTOVACÍM TÝMU</li><li>MANAGEMENT DOVEDNOSTI PRO VEDENÍ TESTOVACÍHO TÝMU</li><li>MOTIVAČNÍ A DEMOTIVAČNÍ FAKTORY V TESTOVACÍM TÝMU V URČITÝCH SITUACÍCH</li><li>OTÁZKY</li></ul>](#managing)
 
-<u>****</u>
-- [<b>:</b>](#stakeholders)
+<u>**STAKEHOLDERS RELATIONSHIP**</u>
+- [<b>STAKEHOLDERS RELATIONSHIP:</b><ul><li>náklady na kvalitu</li><li>cost benefit relationship testování</li></ul>](#stakeholders)
 
 ***
 
@@ -1825,5 +1825,33 @@ kdy testeři spolupracují s různými stakeholdery.
 - **odpověď D**: <u>je správná odpověď</u>
 
 ##### stakeholders
-### 
-#### <ul><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li></ul>
+### STAKEHOLDERS RELATIONSHIP
+#### <ul><li>náklady na kvalitu</li><li>cost benefit relationship testování</li></ul>
+- testování by nemělo být přílišné = **testování stojí více než oprava případných defektů** + ani nedostačující, ale **optimální**.
+
+<u>náklady na kvalitu</u>
+- jedná se o náklady na testování + náklady na defekty.
+- jedná se o rozdělení projektových a operačních nákladů do 4 kategorií.
+  - 🔵 **náklady na prevenci defektů**: př. náklady na lepší procesy, školení vývojářů = **jsou to plánované a proaktivní aktivity**
+  - 🔵 **náklady na detekci defektů**: náklady na odhalení defektů př. statické a dynamické testování
+  - 🔵 **náklady na vnitřní selhání**: př. náklady na opravu defektů nabo přípravu workarounds
+  - 🔵 **náklady na externí selhání**: př. onemocnění zaměstnanců, ztráta testovacího prostředí
+- ❗ `náklady na detekci defektů + náklady na vnitřní selhání musí být menší (<) než náklady na externí selhání`
+  - pokud jsou větší, pak bylo testování **neúčinné** (defekty jsou odhalovány až zákazníkem)
+
+<u>cost benefit relationship testování</u>
+- testování je obecně ceněno jako přínosné.
+-** kvalitativní benefity**:
+  - zlepšení reputace, zvýšení důvěry ...
+-** kvantitativní benefity**:
+  - počet nalezených defektů
+- testování dává informace stakeholdrům o kvalitě produkty + někdy je lepší pustit produkt se známými chybami než čekat na jejich opravu.
+
+**náklady na kvalitu / per defekt**
+- kolik peněž ušetřím, když odhalím/opravím defekt
+
+![alt text](image/naklady_na_kvalitu.png)
+
+**příklad**
+
+![alt text](image/naklady_na_kvalitu_priklad.png)
